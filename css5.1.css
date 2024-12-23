@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #07081A;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 14px 0;
+    border-bottom: 1px solid #261C51;
+    
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    max-width: 1040px;
+    width: 100%;
+    
+}
+.logocontainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.navlist {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    
+}
+.navlist li {
+    font-size: 16px;
+}
+.button {
+    border-radius: 8px;
+    background: #9100D3;
+}
+span {
+    color: #B968DE;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 88px 0;
+}
+.secondcontainer {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    }
+.title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+}
+.paragraph {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 16px;
+    margin: 32px 0;
+}
+.buttonsecond {
+    display: flex;
+    width: 186px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #9100D3;
+    
+}
+
+.app {
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.buttondiv {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+}
+.logodiv {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    padding: 0px 72px 24px 72px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 88px 0;
+    gap: 90px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+   
+}
+.thirdcontainer {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    
+}
+.divdiv {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+    max-width: 304px;
+}
+.littletitle {
+    color: #FFF;
+    font-size: 20px;
+}
+.littleparagraph {
+    color: #C0C0C0;
+    font-size: 14px;
+    
+    
+}
+footer {
+    display: flex;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 463px;
+    border-top: 1px solid #261C51;
+}
+.cloudo {
+    font-size: 16px;
+    color: #fff;
+}
+ol li {
+    list-style-type: none;
+    display: flex;
+}
+.oldiv {
+    display: flex;
+    gap: 24px;
+}
